@@ -1,0 +1,42 @@
+{
+  "publicDir": {
+    "root": "public",
+    "static": "static"
+  },
+  "indexes": {
+    "root": "article",
+    "title": "#page-title",
+    "indexes": [
+      {
+        "selector": "h2"
+      },
+      {
+        "selector": "h3"
+      }
+    ]
+  },
+  "remove": {
+    "include": {
+      "statement": [
+        "<link rel=\"start\" href=\"https://www.ruanyifeng.com/blog/\" title=\"Home\">",
+        "<link rel=\"alternate\" type=\"application/atom+xml\" title=\"Recent Entries\" href=\"https://feeds.feedburner.com/ruanyifeng\">"
+      ],
+      "element": [
+        "#header",
+        ".asset-header",
+        "#related_entries",
+        "#cre",
+        "#comments",
+        "#footer",
+        "script",
+        "iframe"
+      ]
+    },
+    "exclude": {
+      "statement": [
+        "<script type=\"text/javascript\" src=\"https://www.ruanyifeng.com/blog/js/prism.js\"></script>"
+      ],
+      "element": []
+    }
+  }
+}

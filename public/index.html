@@ -1,0 +1,184 @@
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="Movable Type  5.2.2">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--link rel="stylesheet" href="http://www.ruanyifeng.com/blog/styles.css" type="text/css" /-->
+
+
+
+
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://www.ruanyifeng.com/blog/2008/04/who_will_feed_china.html">
+<dc:title>谁来养活中国？</dc:title>
+<dc:description> 1. 最近，世界粮价暴涨，达到了历史最高价，联合国秘书长说全球粮食危机已经爆发。...</dc:description>
+<dc:creator>阮一峰</dc:creator>
+<dc:date>2008-04-19T01:55:53+08:00</dc:date>
+<license rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/" />
+</Work>
+<License rdf:about="http://creativecommons.org/licenses/by-nc-nd/3.0/">
+</License>
+</rdf:RDF>
+-->
+
+<style>
+body {
+  background-color: #f5f5d5;
+}
+
+#container::before {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: rgba(0,0,0,0.1);
+  text-align: center;
+  content: "本站显示不正常，可能因为您使用了广告拦截器。";
+}
+
+</style>
+<link rel="stylesheet" type="text/css" href="static/f5418892f20c2cfe7e0d8b10828fc550.css">
+
+
+    
+    <link rel="prev" href="https://www.ruanyifeng.com/blog/2020/12/weekly-issue-137.html" title="科技爱好者周刊（第 137 期）：Slack 被收购，以及企业的技术选型">
+    <link rel="next" href="https://www.ruanyifeng.com/blog/2020/12/weekly-issue-138.html" title="科技爱好者周刊（第 138 期）：失业难以避免，重构人生规划">
+    
+    <title>《SSH 入门教程》发布了 - 阮一峰的网络日志</title>
+</head>
+<body id="scrapbook" class="mt-entry-archive one-column">
+
+    <div id="container">
+        <div id="container-inner">
+
+            
+
+
+
+            <div id="content">
+                <div id="content-inner">
+
+
+                    <div id="alpha">
+                        <div id="alpha-inner">
+
+
+                            <div id="entry-2224" class="entry-asset asset hentry">
+                                
+
+                          
+<article class="hentry">
+                                    <h1 id="page-title" class="asset-name entry-title">《SSH 入门教程》发布了</h1>
+
+
+
+<div class="asset-meta">
+                                        
+
+                                            <p class="vcard author">作者： <a class="fn url" href="https://www.ruanyifeng.com">阮一峰</a></p>
+                                    <p>日期： <a href="https://www.ruanyifeng.com/blog/2020/12/"><abbr class="published" title="2020-12-13T21:50:23+08:00">2020年12月13日</abbr></a></p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+                                
+                                <div class="asset-content entry-content" id="main-content">
+
+                                    <!-- div class="asset-body" -->
+                                        <p>SSH 是登录 Linux 服务器的必备工具，只要你在做互联网开发，多多少少都会用到它。</p>
+
+                                    <!-- /div -->
+
+
+                                    <!-- div id="more" class="asset-more" -->
+                                        <p><img src="static/046f2a775ac95776ccc39538f2eefecc.jpg" alt="" title=""></p>
+
+<p>我第一次接触 SSH，距离现在超过10年了。2011年时，我就写过博客文章《SSH 原理与运用》（<a href="https://www.ruanyifeng.com/blog/2011/12/ssh_remote_login.html">上篇</a>，<a href="https://www.ruanyifeng.com/blog/2011/12/ssh_port_forwarding.html">下篇</a>）。</p>
+
+<p>但是说来惭愧，很多地方直到现在还是不怎么懂，很多用法还是需要找资料、查手册，尤其是修改配置文件的时候。</p>
+
+<p>我一直想把自己的 SSH 学习笔记整理成系统性的教程，让各种零碎的知识集中在一起，方便查找，也有助于加深理解，对自己和其他人产生更大的价值。</p>
+
+<p>上半年写完了<a href="https://www.ruanyifeng.com/blog/2020/04/bash-tutorial.html">《Bash 入门教程》</a>以后，我就开始写 SSH 了。没想到一点点篇幅，竟然半年多才搞完，主要原因是中间断掉了三个月，平时每周的<a href="https://www.ruanyifeng.com/blog/weekly/">周刊</a>也占掉了不少时间。</p>
+
+<p>现在总算搞完发布了，大家可以去 <a href="http://wangdoc.com/ssh">wangdoc.com/ssh</a> 阅读在线版。</p>
+
+<p><a href="http://wangdoc.com/ssh"><img src="static/9cb6443df7912a22482d6e62e7ac40f5.jpg" alt="" title=""></a></p>
+
+<p>整个教程采用知识共享许可证，源码公开在 <a href="https://github.com/wangdoc/ssh-tutorial">GitHub</a> 上面。任何问题都欢迎到代码仓库发 <a href="https://github.com/wangdoc/ssh-tutorial/issues">Issue</a>。</p>
+
+<p>我没打算停下来，后面想把工作量更大的 《Linux 入门教程》搞出来。我接触 Linux 最早是看<a href="http://cn.linux.vbird.org/">鸟哥的教程</a>，但一直觉得有不满意的地方，可以做得更好。</p>
+
+<p>（完）</p>
+
+                                    <!-- /div -->
+
+                                </div>
+    
+                                <div class="asset-footer">
+
+<a name="1"></a><h3>文档信息</h3>
+<ul>
+<li>版权声明：自由转载-非商用-非衍生-保持署名（<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">创意共享3.0许可证</a>）</li>
+<li>发表日期： <abbr class="published" title="2020-12-13T21:50:23+08:00">2020年12月13日</abbr></li>
+
+</ul>
+                                </div>
+</article>
+                            </div>
+
+
+  
+  <div style="display: inline-block ! important;width: 100%;">
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+
+                    
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        
+         
+            
+                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+<script type="text/javascript" src="static/5c86ef680a22569909ff302b6e2fb9b0.js"></script></body></html>
