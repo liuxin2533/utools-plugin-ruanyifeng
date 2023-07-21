@@ -83,3 +83,4 @@ npm run build https://www.ruanyifeng.com/blog/2019/03/grid-layout-tutorial.html 
 >
 > 1. 仅对[阮一峰的网络日志](https://www.ruanyifeng.com/blog/developer/)有效
 > 2. 发布utools插件请注明原文作者
+> 3. 代码中使用[cheerio](https://github.com/cheeriojs/cheerio)解析HTML
