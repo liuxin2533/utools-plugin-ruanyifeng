@@ -1,9 +1,4 @@
 {
-  "pluginName": "CSS Grid 网格布局教程",
-  "version": "1.0.0",
-  "description": "CSS Grid 网格布局教程(@阮一峰 著)",
-  "author": "Anrand",
-  "homepage": "https://github.com/liuxin2533",
   "preload": "preload.js",
   "logo": "logo.png",
   "platform": [

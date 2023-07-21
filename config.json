@@ -1,6 +1,6 @@
 {
   "publicDir": {
-    "root": "public",
+    "root": "dist",
     "static": "static"
   },
   "indexes": {

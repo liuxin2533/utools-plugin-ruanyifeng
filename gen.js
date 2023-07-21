@@ -197,7 +197,7 @@ function loadConfig (args) {
   console.log('加载配置文件......')
   const config = require('./config.json')
   const url = args[0]
-  const rootDir = args[1] || config.publicDir.root || 'public'
+  const rootDir = args[1] || config.publicDir.root || 'dist'
   const staticDir = config.publicDir.static || 'static'
   return {
     URL: new URL(url),
