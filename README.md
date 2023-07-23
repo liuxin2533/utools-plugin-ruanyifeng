@@ -10,7 +10,7 @@ npm install
 运行
 
 ```bash
-npm run build url <publicDir>
+npm run build <url> [publicDir]
 
 # 参数说明
 # url:  阮一峰的网络日志地址
